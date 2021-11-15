@@ -1,3 +1,6 @@
+html  {
+    max-height: 100%;
+}
 
 .highscores {
     padding: 20px;
@@ -18,7 +21,17 @@
     opacity: 0;
     transition: opacity 0.5s;
   }
-.verified-answer {
-    visibility: hidden;
-}*/
+*/
 
+
+
+.slide {
+    visibility: collapse;
+}
+
+#correct {
+    visibility: collapse;
+}
+#wrong {
+    visibility: collapse;
+}
