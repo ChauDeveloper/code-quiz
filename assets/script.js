@@ -19,10 +19,12 @@ function countdown() {
  var start = document.querySelector("button")
  start.onclick = function ()
  {  countdown();
-    document.getElementById("blockquote").style.visibility = "collapse";
-    document.getElementById("one").style.visibility = "visible";
+    document.getElementById("intro").style.visibility = "collapse";
+    document.getElementById("quiz-container").style.visibility = "visible";
  }
-var correctanswer = document.querySelector("1.3")
-correctanswer.addEventListener("click", function () {
-  window.alert = "you are correct"
- })
+
+var question1 = document.createElement("h2")
+question1.textContent = ""
+question1.className = "question";
+
+
