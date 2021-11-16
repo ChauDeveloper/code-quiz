@@ -13,7 +13,6 @@ function countdown() {
     }, 1000);
   }
 
-  //will move this into startquiz function
 
 
  var start = document.querySelector("button")
@@ -21,10 +20,12 @@ function countdown() {
  {  countdown();
     document.getElementById("intro").style.visibility = "collapse";
     document.getElementById("quiz-container").style.visibility = "visible";
- }
+}
 
-var question1 = document.createElement("h2")
-question1.textContent = ""
-question1.className = "question";
+var questions = [
+  "Commonly used data types DO Not Include:",
+  "The condition in an if/else statement is enclosed with _______.",
+  "Arrays in Javascript can be used to store."
+]
 
 
